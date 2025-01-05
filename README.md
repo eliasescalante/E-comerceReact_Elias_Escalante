@@ -1,5 +1,7 @@
 # React + Vite
 
+deploy: https://pre-entrega1-escalante.vercel.app/ 
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
