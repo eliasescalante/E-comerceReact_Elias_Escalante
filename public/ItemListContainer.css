@@ -1,0 +1,15 @@
+/* Estilo para el contenedor de ItemListContainer*/
+.item-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .item-list-container h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  

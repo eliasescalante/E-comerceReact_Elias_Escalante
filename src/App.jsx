@@ -1,12 +1,15 @@
-import './App.css'
+import React from 'react';
+import NavBar from './components/NavBar.jsx';
+import ItemListContainer from './components/ItemListContainer.jsx';
 
-function App() {
-  const name = "Elias";
+const App = () => {
+  // Componente principal de la aplicación
   return (
-    <div>
-      <h1>Holis, {name}!</h1>
-    </div>
-  )
-}
+    <>
+      <NavBar />
+      <ItemListContainer greeting="TIENDA AMA - Bienvenidos a la tienda virtual de Artes Marciales Mixtas" />
+    </>
+  );
+};
 
-export default App
+export default App;

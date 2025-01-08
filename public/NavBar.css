@@ -1,0 +1,32 @@
+/* Estilo para el NavBar*/
+.navbar-brand,
+.nav-link {
+  font-weight: 400;
+  background: linear-gradient(90deg, #FFD700, #32CD32);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Hover para enlaces */
+.nav-link:hover,
+.navbar-brand:hover {
+  color: white !important;
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+/* Estilo para el carrito */
+.cart-widget img {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover para el carrito */
+.cart-widget img:hover {
+  transform: scale(1.2);
+}
+
+.cart-widget .badge {
+  background-color: #32CD32;
+  color: white;
+}
