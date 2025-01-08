@@ -27,4 +27,4 @@
 
 ---
 
-#### 💡 Este proyecto fue configurado para ser ágil y fácil de usar con React y Vite. ¡Disfruta del desarrollo!
+
