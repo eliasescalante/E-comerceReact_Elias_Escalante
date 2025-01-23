@@ -2,7 +2,7 @@
 .navbar-brand,
 .nav-link {
   font-weight: 400;
-  background: linear-gradient(90deg, #FFD700, #32CD32);
+  background: #32CD32;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;

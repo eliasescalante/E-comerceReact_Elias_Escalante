@@ -1,11 +1,18 @@
-# 📦 Primera Pre Entrega para el Curso de React.js de Coderhouse
 
-## 🧑‍🎓 Alumno: **Elías Escalante**  
-## 📅 Comisión: **Número 63430**  
-## 👩‍🏫 Profesora: **Laura Therisod**  
-## 👨‍🏫 Tutor: **Nicolás Smael**  
+
+# 🧑‍🎓 Alumno: **Elías Escalante**  
+# 📅 Comisión: **Número 63430**  
+# 👩‍🏫 Profesora: **Laura Therisod**  
+# 👨‍🏫 Tutor: **Nicolás Smael**  
 
 ---
+# 📦 Primera Pre Entrega para el Curso de React.js de Coderhouse
+
+----
+
+# 📝 Segunda Pre Entrega para el curso de React,js de CoderHouse:
+
+----
 
 ### ℹ️ Información
 
