@@ -5,7 +5,7 @@ const products = [
         price: 4500,
         category: "Ropa",
         description: "Guantes de boxeo de alta calidad con acolchado reforzado para entrenamientos intensos.",
-        img: "https://example.com/img/guantes-boxeo-pro.jpg",
+        img: "https://http2.mlstatic.com/D_926151-MLA71074879221_082023-O.jpg",
         stock: 25,
     },
     {
@@ -14,7 +14,7 @@ const products = [
         price: 8000,
         category: "Ropa",
         description: "Kimono profesional de Judo, fabricado con algodón resistente y duradero.",
-        img: "https://example.com/img/kimono-judo.jpg",
+        img: "https://www.pride.shop/images/thumbs/0001417_2540-professional-judo-kimono-930_1000.jpeg",
         stock: 15,
     },
     {
@@ -23,7 +23,7 @@ const products = [
         price: 1200,
         category: "Armas",
         description: "Nunchakus de espuma, ideales para principiantes y prácticas seguras.",
-        img: "https://example.com/img/nunchaku-espuma.jpg",
+        img: "https://www.dragonsports.eu/6007901-verylarge_default/nunchaku-espuma-cuerda-metal-boxe-are125a.jpg",
         stock: 50,
     },
     {
@@ -32,7 +32,7 @@ const products = [
         price: 2500,
         category: "Armas",
         description: "Sable de madera para prácticas de Kendo y artes marciales tradicionales.",
-        img: "https://example.com/img/sable-madera.jpg",
+        img: "https://www.dragonsports.eu/485183-verylarge_default/sable-para-wushu-y-taichi-madera-roja.jpg",
         stock: 30,
     },
     {
@@ -41,7 +41,7 @@ const products = [
         price: 5000,
         category: "Zapatillas",
         description: "Zapatillas ligeras y antideslizantes, ideales para entrenamientos de artes marciales.",
-        img: "https://example.com/img/zapatillas-entrenamiento.jpg",
+        img: "https://m.media-amazon.com/images/I/6110vNwgmML._AC_SL1500_.jpg",
         stock: 20,
     },
     {
@@ -50,7 +50,7 @@ const products = [
         price: 700,
         category: "Accesorios",
         description: "Protector bucal ergonómico para proteger los dientes durante los combates.",
-        img: "https://example.com/img/protector-bucal.jpg",
+        img: "https://acdn.mitiendanube.com/stores/002/203/728/products/protector-bucal-gel-31-e49d628430845a588e16877974864539-1024-1024.jpg",
         stock: 100,
     },
     {
@@ -59,7 +59,7 @@ const products = [
         price: 3000,
         category: "Ropa",
         description: "Casco de protección aprobado por federaciones de Taekwondo, ajustable y cómodo.",
-        img: "https://example.com/img/casco-taekwondo.jpg",
+        img: "https://kosmooto.com/cdn/shop/products/CASCOABIERTO_KOS_NG_02_700x.jpg?v=1626816419",
         stock: 10,
     },
     {
@@ -68,7 +68,7 @@ const products = [
         price: 4000,
         category: "Armas",
         description: "Espada de bambú para prácticas de Kendo, ligera y resistente.",
-        img: "https://example.com/img/shinai-bambu.jpg",
+        img: "https://cdn.awsli.com.br/800x800/2515/2515067/produto/183662124e5015cd120.jpg",
         stock: 18,
     },
     {
@@ -77,7 +77,7 @@ const products = [
         price: 3500,
         category: "Ropa",
         description: "Peto acolchado para proteger el torso durante combates de Karate.",
-        img: "https://example.com/img/peto-karate.jpg",
+        img: "https://asianatusah.com/files/attach/images/159/076/003/e6025905be60061718bc9cece4ef37c7.jpg",
         stock: 12,
     },
     {
@@ -86,7 +86,7 @@ const products = [
         price: 1500,
         category: "Accesorios",
         description: "Cuerda de entrenamiento para mejorar la coordinación y el cardio.",
-        img: "https://example.com/img/cuerda-entrenamiento.jpg",
+        img: "https://http2.mlstatic.com/D_NQ_NP_783622-MLA73208303307_122023-O.webp",
         stock: 40,
     },
 ];
