@@ -1,19 +1,29 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "../../public/ItemListContainer.css";
+import React, { useEffect, useState } from "react";
+import { useParams, Link } from "react-router-dom";
 import products from "../mock/data.jsx";
+import "../../public/ItemListContainer.css";
 
 const ItemListContainer = ({ greeting }) => {
+    const { id: categoryId } = useParams();
+    const [filteredProducts, setFilteredProducts] = useState([]);
+
+    useEffect(() => {
+        if (categoryId) {
+            // Filtrar los productos por categoría
+            const filtered = products.filter((product) => product.category === categoryId);
+            setFilteredProducts(filtered);
+        } else {
+            setFilteredProducts(products); // Muestra todos los productos si no hay categoría
+        }
+    }, [categoryId]);
+
     return (
         <div className="item-list-container">
-            {/* Saludo debajo del navbar */}
             <div className="greeting-container">
                 <h1>{greeting}</h1>
             </div>
-
-            {/* Listado de productos */}
             <div className="product-list">
-                {products.map((product) => (
+                {filteredProducts.map((product) => (
                     <div key={product.id} className="product-card">
                         <h3>{product.name}</h3>
                         <img
