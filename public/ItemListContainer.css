@@ -1,15 +1,65 @@
 /* Estilo para el contenedor de ItemListContainer*/
+/* Estilo para el contenedor general */
 .item-list-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin-top: 60px;
-    text-align: center;
-  }
-  
-  .item-list-container h2 {
-    font-size: 2.5rem;
-    color: #333;
-  }
+  padding: 1rem;
+}
+
+/* Saludo debajo del navbar */
+.greeting-container {
+  text-align: center;
+  margin-top: 5rem; /* Ajusta según la altura del Navbar */
+  margin-bottom: 2rem;
+}
+
+
+/* Estilo para el listado de productos */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* Estilo para las tarjetas de producto */
+.product-card {
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 1rem;
+  background-color: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen del producto */
+.product-image {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+/* Link a detalle */
+.details-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.details-link:hover {
+  background-color: #0056b3;
+}
+
   

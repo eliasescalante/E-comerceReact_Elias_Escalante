@@ -1,14 +1,14 @@
-import React from 'react';
-import CartWidget from './CartWidget.jsx';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../public/NavBar.css';
+import React from "react";
+import { Link, NavLink } from "react-router-dom";
+import CartWidget from "./CartWidget.jsx";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../../public/NavBar.css";
 
 const NavBar = () => {
-    // NavBar principal con las clases de Bootstrap para que tengan diseño y sea responsive
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">Tienda AMA</a>
+                <Link className="navbar-brand" to="/">Tienda AMA</Link>
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -23,16 +23,13 @@ const NavBar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Armas</a>
+                            <NavLink className="nav-link" to="/category/armas">Armas</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Trajes</a>
+                            <NavLink className="nav-link" to="/category/trajes">Trajes</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Elementos de entrenamientos</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Eventos</a>
+                            <NavLink className="nav-link" to="/category/accesorios">Accesorios</NavLink>
                         </li>
                     </ul>
                 </div>
