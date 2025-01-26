@@ -20,7 +20,7 @@ const ItemListContainer = ({ greeting }) => {
     return (
         <div className="item-list-container">
             <div className="greeting-container">
-                <h1>{greeting}</h1>
+                <h1>{greeting} {categoryId && <span>{categoryId}</span>}</h1>
             </div>
             <div className="product-list">
                 {filteredProducts.map((product) => (

@@ -5,11 +5,6 @@
 # 👩‍🏫 Profesora: **Laura Therisod**  
 # 👨‍🏫 Tutor: **Nicolás Smael**  
 
----
-# 📦 Primera Pre Entrega para el Curso de React.js de Coderhouse
-
-----
-
 # 📝 Segunda Pre Entrega para el curso de React,js de CoderHouse:
 
 ----
