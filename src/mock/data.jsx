@@ -6,7 +6,7 @@ const products = [
         category: "accesorios",
         description: "Guantes de boxeo de alta calidad con acolchado reforzado para entrenamientos intensos.",
         img: "https://http2.mlstatic.com/D_926151-MLA71074879221_082023-O.jpg",
-        stock: 25,
+        stock: 2,
     },
     {
         id: 2,

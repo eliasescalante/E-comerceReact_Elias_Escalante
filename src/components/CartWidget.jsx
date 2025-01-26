@@ -11,7 +11,7 @@ const CartWidget = () => {
                 alt="Cart"
                 style={{ width: '30px', height: '30px', marginRight: '10px' }}
             />
-            <span className="badge">3</span>
+            <span className="badge">0</span>
         </div>
     );
 };
