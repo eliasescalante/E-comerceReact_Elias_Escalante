@@ -9,7 +9,7 @@
 
 ## Captura:
 
-![Captura de pantalla](https://github.com/ElíasEscalante/Proyecto-)
+![Captura de pantalla](https://github.com/eliasescalante/PreEntrega1_Escalante/blob/main/src/assets/img/captura_preentrega_2.gif)
 
 ----
 
