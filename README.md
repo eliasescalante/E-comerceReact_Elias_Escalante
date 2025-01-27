@@ -7,6 +7,10 @@
 
 # 📝 Segunda Pre Entrega para el curso de React,js de CoderHouse:
 
+## Captura:
+
+![Captura de pantalla](https://github.com/ElíasEscalante/Proyecto-)
+
 ----
 
 ### ℹ️ Información
