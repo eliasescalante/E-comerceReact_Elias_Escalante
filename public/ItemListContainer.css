@@ -7,10 +7,9 @@
 /* Saludo debajo del navbar */
 .greeting-container {
   text-align: center;
-  margin-top: 5rem; /* Ajusta según la altura del Navbar */
+  margin-top: 5rem;
   margin-bottom: 2rem;
 }
-
 
 /* Estilo para el listado de productos */
 .product-list {
@@ -61,5 +60,3 @@
 .details-link:hover {
   background-color: #0056b3;
 }
-
-  

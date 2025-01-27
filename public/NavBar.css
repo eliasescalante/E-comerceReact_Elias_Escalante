@@ -2,7 +2,7 @@
 .navbar-brand,
 .nav-link {
   font-weight: 400;
-  background: #32CD32;
+  background: rgba(145, 211, 231, 0.945);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
@@ -27,6 +27,6 @@
 }
 
 .cart-widget .badge {
-  background-color: #32CD32;
+  background-color: black;
   color: white;
 }
