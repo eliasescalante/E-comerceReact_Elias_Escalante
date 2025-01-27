@@ -1,5 +1,6 @@
 import React from "react";
 import ItemCount from "./ItemCount";
+import "../../public/ItemDetail.css";
 
 const ItemDetail = ({ product }) => {
     const handleAddToCart = (quantity) => {

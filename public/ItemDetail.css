@@ -1,0 +1,78 @@
+/* Estilos para el detalle del producto */
+.item-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item-detail img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+}
+
+.item-detail h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.item-detail p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+/* Botones del contador */
+.item-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.item-count button {
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #0f0f0f;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.item-count button:hover {
+    background-color: #ddd;
+}
+
+/* Botón agregar al carrito */
+.add-to-cart {
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+    background-color: #000; /* Negro */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.add-to-cart:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
