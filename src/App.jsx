@@ -7,15 +7,14 @@ import ItemDetailContainer from "./components/ItemDetailContainer.jsx";
 const App = () => {
   return (
     <BrowserRouter>
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<ItemListContainer greeting="Bienvenidos a la Tienda AMA" />} />
-        <Route path="/category/:id" element={<ItemListContainer greeting="Productos por categoría" />} />
-        <Route path="/item/:id" element={<ItemDetailContainer />} />
-      </Routes>
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<ItemListContainer greeting="Bienvenidos a la Tienda AMA" />} />
+            <Route path="/category/:id" element={<ItemListContainer greeting="Productos por categoría" />} />
+            <Route path="/item/:id" element={<ItemDetailContainer />} />
+          </Routes>
     </BrowserRouter>
   );
 };
 
 export default App;
-
