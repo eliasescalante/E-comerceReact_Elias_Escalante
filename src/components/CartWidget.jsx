@@ -1,18 +1,22 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import { Link } from "react-router-dom";
 import cartImage from '../assets/img/cart.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { CartContext } from '../context/CartContext';
 
 const CartWidget = () => {
-    // Contenedor del carrito
+    const { cart } = useContext(CartContext);
+    const totalItems = cart.reduce((acc, item) => acc + item.quantity, 0);
+
     return (
-        <div className="cart-widget d-flex align-items-center">
-            <img
-                src={cartImage}
-                alt="Cart"
-                style={{ width: '30px', height: '30px', marginRight: '10px' }}
+        <Link to="/cart" className="cart-widget d-flex align-items-center">
+            <img 
+                src={cartImage} 
+                alt="Cart" 
+                style={{ width: "30px", height: "30px", marginRight: "10px" }} 
             />
-            <span className="badge">0</span>
-        </div>
+            <span className="badge">{totalItems}</span>
+        </Link>
     );
 };
 
