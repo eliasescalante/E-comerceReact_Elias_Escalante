@@ -5,6 +5,8 @@
 
 ![Captura de pantalla](https://github.com/eliasescalante/E-comerceReact_Elias_Escalante/blob/main/src/assets/img/captura_2.png)
 
+![Captura de pantalla](https://github.com/eliasescalante/PreEntrega1_Escalante/blob/main/src/assets/img/captura_preentrega_2.gif)
+
 ----
 
 ### 🧑‍🎓 Alumno: **Elías Escalante**  
@@ -16,7 +18,7 @@
 
 ## Captura:
 
-![Captura de pantalla](https://github.com/eliasescalante/PreEntrega1_Escalante/blob/main/src/assets/img/captura_preentrega_2.gif)
+
 
 ----
 
