@@ -3,7 +3,7 @@
 
 ----
 
-![Captura de pantalla]()
+![Captura de pantalla](https://github.com/eliasescalante/E-comerceReact_Elias_Escalante/blob/main/src/assets/img/captura_2.png)
 
 ----
 
