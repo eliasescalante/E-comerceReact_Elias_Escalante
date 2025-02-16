@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar.jsx";
 import ItemListContainer from "./components/ItemListContainer.jsx";
 import ItemDetailContainer from "./components/ItemDetailContainer.jsx";
 import Cart from "./components/Cart.jsx";
+import ThankYou from "./components/ThankYou.jsx";
 import Checkout from "./components/Checkout.jsx";
 import { CartProvider } from "./context/CartContext.jsx";
 
@@ -18,6 +19,7 @@ const App = () => {
                     <Route path="/item/:id" element={<ItemDetailContainer />} />
                     <Route path="/cart" element={<Cart />} />
                     <Route path="/checkout" element={<Checkout />} />
+                    <Route path="/thankyou/:trackingCode" element={<ThankYou />} />
                 </Routes>
             </BrowserRouter>
         </CartProvider>
