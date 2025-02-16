@@ -1,45 +1,53 @@
-
-# E-commerce - AMA  🛒
-
-----
+# 🛒 E-commerce - AMA  
 
 ![Captura de pantalla](https://github.com/eliasescalante/E-comerceReact_Elias_Escalante/blob/main/src/assets/img/captura_2.png)
 
 ![Captura de pantalla](https://github.com/eliasescalante/PreEntrega1_Escalante/blob/main/src/assets/img/captura_preentrega_2.gif)
 
-----
+---
 
-### 🧑‍🎓 Alumno: **Elías Escalante**  
-### 📅 Comisión: **Número 63430**  
-### 👩‍🏫 Profesora: **Laura Therisod**  
-### 👨‍🏫 Tutor: **Nicolás Smael**  
+## 📌 Información del Proyecto
 
-# 📝 Entrega final para el curso de React,js de CoderHouse:
+- 🎓 **Alumno:** Elías Escalante  
+- 📅 **Comisión:** 63430  
+- 👩‍🏫 **Profesora:** Laura Therisod  
+- 👨‍🏫 **Tutor:** Nicolás Smael  
 
-## Captura:
+### 🚀 Proyecto Final - Curso de React.js en CoderHouse  
 
-
-
-----
-
-### ℹ️ Información
-
-🔗 **Deploy**: [Visita el proyecto aquí](https://pre-entrega1-escalante.vercel.app/)
+🔗 **Deploy:** [Visita el proyecto aquí](https://pre-entrega1-escalante.vercel.app/)
 
 ---
 
-## 🚀 React + Vite
+## ⚡ Tecnologías Utilizadas
+
+- **React + Vite** 🚀  
+- **JavaScript (ES6+)**  
+- **CSS (Estilos personalizados)**  
+- **React Router Dom**  
+- **Firebase** (Para autenticación y base de datos)  
 
 ---
 
-### 📦 Plugins Oficiales Disponibles:
+## 📥 Instalación y Uso  
 
-1. **[@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)**  
-   Utiliza **Babel** para un **Fast Refresh** rápido.
+### 🔧 Requisitos Previos  
+Asegúrate de tener instalado:  
 
-2. **[@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc)**  
-   Utiliza **SWC** para un **Fast Refresh** aún más rápido.
+- **Node.js** (versión recomendada: 16 o superior)  
+- **npm** o **yarn**  
 
----
+### 📌 Pasos para Clonar e Instalar  
 
-
+1. Clona el repositorio:  
+   ```sh
+   git clone https://github.com/eliasescalante/E-comerceReact_Elias_Escalante.git
+   ````
+2. Instala las dependencias:
+   ```sh
+   npm install
+   ```
+3. Inicia el proyecto:
+   ```sh
+   npm run dev
+   ```
