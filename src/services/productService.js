@@ -1,21 +1,18 @@
-// src/services/productService.js
-import { db } from './firebase'; // Asegúrate de que la importación esté correcta
+import { db } from './firebase';
 import { collection, getDocs, doc, getDoc } from 'firebase/firestore';
 
-// Obtener todos los productos
 export const getProducts = async () => {
-    const productsCollection = collection(db, 'items'); // Acceder a la colección 'products'
-    const productsSnapshot = await getDocs(productsCollection); // Obtener todos los documentos de la colección
-    const productsList = productsSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() })); // Mapear los productos
+    const productsCollection = collection(db, 'items');
+    const productsSnapshot = await getDocs(productsCollection);
+    const productsList = productsSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
     return productsList;
 };
 
-// Obtener un producto por su ID
 export const getProductById = async (id) => {
-    const productDoc = doc(db, 'items', id); // Acceder al documento del producto por su ID
-    const productSnapshot = await getDoc(productDoc); // Obtener el documento
+    const productDoc = doc(db, 'items', id);
+    const productSnapshot = await getDoc(productDoc);
     if (productSnapshot.exists()) {
-        return { id: productSnapshot.id, ...productSnapshot.data() }; // Retornar el producto con el ID
+        return { id: productSnapshot.id, ...productSnapshot.data() };
     } else {
         throw new Error('Producto no encontrado');
     }
