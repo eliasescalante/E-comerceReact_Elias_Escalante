@@ -35,6 +35,8 @@
 - **CSS (Estilos personalizados)**  
 - **React Router Dom**  
 - **Firebase** (base de datos)  
+- **SweetAlert2**
+
 
 ---
 
