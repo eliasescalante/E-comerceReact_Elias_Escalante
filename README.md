@@ -1,11 +1,18 @@
 
+# E-commerce - AMA 
 
-# 🧑‍🎓 Alumno: **Elías Escalante**  
-# 📅 Comisión: **Número 63430**  
-# 👩‍🏫 Profesora: **Laura Therisod**  
-# 👨‍🏫 Tutor: **Nicolás Smael**  
+----
 
-# 📝 Segunda Pre Entrega para el curso de React,js de CoderHouse:
+![Captura de pantalla]()
+
+----
+
+### 🧑‍🎓 Alumno: **Elías Escalante**  
+### 📅 Comisión: **Número 63430**  
+### 👩‍🏫 Profesora: **Laura Therisod**  
+### 👨‍🏫 Tutor: **Nicolás Smael**  
+
+# 📝 Entrega final para el curso de React,js de CoderHouse:
 
 ## Captura:
 
